@@ -1,0 +1,8 @@
+**/node_modules/*
+ios/*
+android/*
+coverage/*
+vendor/*
+package-lock.json
+package.json
+vendor/*

@@ -1,0 +1,8 @@
+**/node_modules/*
+# ios/*
+# android/*
+# package-lock.json
+# yarn-lock.json
+# package.json
+
+# @end expo-cli
