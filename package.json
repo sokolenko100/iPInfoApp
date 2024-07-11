@@ -1,5 +1,5 @@
 {
-  "name": "IPInfoApp",
+  "name": "ipinfoapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,21 +10,26 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.6.0",
     "@react-navigation/native": "^6.1.17",
+    "@types/react-native-snap-carousel": "^3.8.11",
     "axios": "^1.7.2",
     "react": "18.2.0",
     "react-native": "0.74.3",
     "react-native-chart-kit": "^6.12.0",
     "react-native-gesture-handler": "^2.17.1",
     "react-native-image-slider-box": "^2.0.7",
-    "react-native-reanimated": "^3.13.0",
-    "react-native-safe-area-context": "^4.10.7",
+    "react-native-reanimated": "^3.14.0",
+    "react-native-safe-area-context": "^4.10.8",
     "react-native-screens": "^3.32.0",
-    "react-native-svg": "^15.3.0"
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "^15.3.0",
+    "socket.io-client": "^4.7.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
+    "@babel/core": "^7.24.8",
+    "@babel/eslint-parser": "^7.24.8",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
     "@react-native/babel-preset": "0.74.85",

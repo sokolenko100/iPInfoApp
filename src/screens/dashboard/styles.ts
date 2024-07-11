@@ -6,12 +6,24 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  image: {
-    width: 300,
-    height: 200,
+  header: {
+    fontSize: 24,
     marginBottom: 20,
+  },
+  input: {
+    height: 40,
+    borderColor: "gray",
+    borderWidth: 1,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+    width: "80%",
   },
   info: {
     alignItems: "center",
+    marginBottom: 20,
+  },
+  image: {
+    width: 300,
+    height: 200,
   },
 });
